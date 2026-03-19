@@ -16,6 +16,8 @@ Payment Processor is a robust and secure software solution for processing online
 *   Real-time payment notifications and status updates
 *   Support for recurring payments and subscriptions
 *   Comprehensive error handling and logging
+*   Integration with popular e-commerce platforms (e.g. Shopify, WooCommerce)
+*   Support for multi-language and multi-currency transactions
 
 ### Additional Features
 
@@ -23,15 +25,17 @@ Payment Processor is a robust and secure software solution for processing online
 *   Secure and PCI-compliant payment processing
 *   Supports international payments and multiple currencies
 *   Comprehensive documentation and support
+*   Real-time analytics and reporting for merchants
+*   Support for 3D Secure authentication
 
 ## Technologies Used
 -------------------
 
-*   **Frontend:** React, Redux, CSS (SCSS)
-*   **Backend:** Node.js, Express, MongoDB
+*   **Frontend:** React, Redux, CSS (SCSS), Webpack
+*   **Backend:** Node.js, Express, MongoDB, GraphQL
 *   **Database:** MongoDB
-*   **Payment Gateways:** Stripe, PayPal, Authorize.net
-*   **Security:** SSL/TLS, OAuth, JWT
+*   **Payment Gateways:** Stripe, PayPal, Authorize.net, Square
+*   **Security:** SSL/TLS, OAuth, JWT, Helmet
 
 ## Installation
 ------------
@@ -41,6 +45,7 @@ Payment Processor is a robust and secure software solution for processing online
 *   Node.js (14.17.0 or higher)
 *   npm (6.14.13 or higher)
 *   MongoDB (3.6.3 or higher)
+*   Docker (optional)
 
 ### Setup
 
@@ -54,6 +59,7 @@ Payment Processor is a robust and secure software solution for processing online
 
 *   Update the `.env` file with your MongoDB URI and other configuration settings
 *   Configure payment gateways in the `config` directory
+*   Update the `docker-compose.yml` file for Docker setup (if using)
 
 ## Contributing
 ------------
@@ -72,10 +78,12 @@ Payment Processor is licensed under the MIT License.
     *   Improve user interface and user experience
     *   Add support for more payment gateways
     *   Enhance security features
+    *   Implement Docker support for easier deployment
 *   Long-term goals:
     *   Implement machine learning-based fraud detection
     *   Integrate with popular e-commerce platforms
     *   Expand to support international payments
+    *   Develop a mobile app for on-the-go transactions
 
 ## Acknowledgments
 ------------
@@ -83,3 +91,4 @@ Payment Processor is licensed under the MIT License.
 Thanks to the following individuals and organizations for their contributions to the Payment Processor project:
 
 *   [Your contributors here]
+*   [Your sponsors here]
